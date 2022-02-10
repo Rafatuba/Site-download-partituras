@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background: url(/src/img/paper-g6262f3f81_1920.jpg) ;
+}
+
+.title {
+    font-size: 50px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
