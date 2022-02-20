@@ -13,7 +13,14 @@ body {
     padding-bottom: 30px;
     border: 5px solid black;
     margin-bottom: 50px;
-    background-color: rgb(28, 37, 37);
+    
+    
+    /*Efeito de Tranparencia*/
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .container a {
